@@ -14,7 +14,7 @@ class Page
   end
 
   def body
-    pages['body']
+    page['body']
   end
 
   def lede

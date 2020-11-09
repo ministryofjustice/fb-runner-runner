@@ -12,19 +12,26 @@ class Service
         "_id": "service",
         "_type": "config.service"
       },
-      "pages": [
-        {
-          "body": "You cannot use this form to complain about:\r\n\r\n* the result of a case\r\n* a judge, magistrate, coroner or member of a tribunal\r\n\r\nThis online form is also available in [Welsh (Cymraeg)](https://complain-about-a-court-or-tribunal.form.service.justice.gov.uk/cy).",
-          "heading": "Complain about a court or tribunal",
-          "lede": "Your complaint will not affect your case.",
-          "steps": [
-            "page.name",
+      "pages" => [
+        { "_id" => "page.start",
+          "_type" => "page.start",
+          "body" => "You cannot use this form to complain about:\r\n\r\n* the result of a case\r\n* a judge, magistrate, coroner or member of a tribunal\r\n\r\nThis online form is also available in [Welsh (Cymraeg)](https://complain-about-a-court-or-tribunal.form.service.justice.gov.uk/cy).",
+          "heading" => "Complain about a court or tribunal",
+          "lede" => "Your complaint will not affect your case.",
+          "steps" => [
+            "page-2",
             "page.do-you-have-a-case-number"
           ],
-          "url": "/"
+          "url" => "/"
+        },
+        {
+          "_id" => "page-2",
+          "_type" => "page",
+          "body" => "This is page two",
+          "url" => "/page-2"
         }
       ],
-      "locale": "en"
+      "locale" => "en"
     }
   end
 
