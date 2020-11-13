@@ -21,6 +21,18 @@ class Page
     page['lede']
   end
 
+  def heading
+    page['heading']
+  end
+
+  def section_heading
+    page['section_heading']
+  end
+
+  def heading_class
+    ''
+  end
+
   def url
     page['url']
   end
