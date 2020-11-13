@@ -4,7 +4,7 @@ class Service
   def initialize
     @raw_metadata = {
       "service_id": "634aa3d5-a3b3-4d0f-9078-bb754542a1d3",
-      "service_name": "Service Name",
+      "service_name" => "Service Name",
       "version_id": "ac4b45c5-071e-4d07-b5a2-9f0196a5b267",
       "created_at": "2020-10-09T11:51:46",
       "created_by": "4634ec01-5618-45ec-a4e2-bb5aa587e751",
