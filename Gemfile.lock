@@ -1,7 +1,7 @@
 PATH
   remote: ../fb-metadata-presenter
   specs:
-    fb-metadata-presenter (0.1.0)
+    metadata_presenter (0.1.0)
       rails (~> 6.0.3, >= 6.0.3.4)
 
 GEM
@@ -204,9 +204,9 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
-  fb-metadata-presenter!
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  metadata_presenter!
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
